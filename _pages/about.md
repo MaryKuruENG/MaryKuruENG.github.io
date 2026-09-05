@@ -7,4 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-A results-driven Master’s student in Mechatronics Engineering with a robust foundation in Electrical Engineering and hands-on industrial diagnostic expertise. Specialized in the intersection of computer vision, control theory, and embedded systems, with a long-term goal of designing intelligent autonomous vehicles that eliminate human risk in hazardous environments. Passionate about engineering education, STEM advocacy, and leveraging AI for sustainable agricultural and industrial solutions.
+* **Current Focus:** Pursuing a joint Master's in Mechatronics Engineering through Ashesi University and ETH Zürich.
+* **Engineering Background:** Holds a Bachelor's in Electrical and Electronic Engineering from the University of Mines and Technology, backed by hands-on industrial experience maintaining heavy machinery.
+* **Core Interests:** Autonomous heavy-duty machinery, robotics, computer vision, and control systems designed to reduce human risk in hazardous environments.
+* **Leadership & Advocacy:** Active in STEM education outreach and academic leadership, bridging technical innovation with community impact.
