@@ -4,8 +4,6 @@ excerpt: "Trained a VGGNet-16 deep learning model to classify insulator conditio
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
-
 ### Overview
 Developed and trained a VGGNet-16 deep learning model to automatically analyze, detect failures, and classify high-voltage transmission line insulators as defective or healthy.
 
