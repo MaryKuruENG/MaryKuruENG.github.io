@@ -102,3 +102,18 @@ html[data-theme="dark"] .ms-kicker{color:var(--ms-gold)}
 /* 6. Work cards in a clean 2x2 grid (no orphan card) */
 .ms-grid--wide{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:600px){.ms-grid--wide{grid-template-columns:1fr}}
+
+/* ===== Sidebar: wider, scrolls with the page, no inner scrollbar ===== */
+@media screen and (min-width:1024px){
+  .sidebar{
+    position:relative;height:auto;overflow:visible;
+    width:24%;padding-top:0;padding-right:1.5rem;margin-right:0;
+    border-right:1px solid var(--ms-line);
+  }
+  .page{width:76%;padding-left:4%;padding-right:2%}
+  .sidebar .author__name{font-size:1.45rem}
+  .author__avatar img{max-width:200px}
+}
+
+/* Footer: sit at the end of the page instead of pinned over the content */
+.page__footer{position:relative;bottom:auto}
