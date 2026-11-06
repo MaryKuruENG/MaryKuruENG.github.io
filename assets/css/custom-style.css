@@ -27,7 +27,7 @@ h1,h2,h3,.author__name,.archive__item-title{font-family:'Playfair Display',Georg
 .page__content a:hover{color:var(--ms-accent)}
 
 /* sidebar profile */
-.author__avatar img{border-radius:50%;border:3px solid var(--ms-gold);padding:3px;box-shadow:var(--ms-shadow);transition:transform .35s ease}
+.author__avatar img{border-radius:24%;border:3px solid var(--ms-gold);padding:3px;box-shadow:var(--ms-shadow);transition:transform .35s ease}
 .author__avatar img:hover{transform:scale(1.04) rotate(-1.5deg)}
 .author__name{font-size:1.35rem}
 .author__urls.social-icons li a{transition:color .2s ease,transform .2s ease;display:inline-block}
