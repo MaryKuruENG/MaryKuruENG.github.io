@@ -107,7 +107,7 @@ html[data-theme="dark"] .ms-kicker{color:var(--ms-gold)}
 @media screen and (min-width:1024px){
   .sidebar{
     position:relative;height:auto;overflow:visible;
-    width:24%;padding-top:0;padding-right:1.5rem;margin-right:0;
+    width:30%;padding-top:0;padding-right:1.5rem;margin-right:0;
     border-right:1px solid var(--ms-line);
   }
   .page{width:76%;padding-left:4%;padding-right:2%}
