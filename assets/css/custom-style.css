@@ -103,14 +103,17 @@ html[data-theme="dark"] .ms-kicker{color:var(--ms-gold)}
 .ms-grid--wide{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:600px){.ms-grid--wide{grid-template-columns:1fr}}
 
-/* ===== Sidebar: wider, scrolls with the page, no inner scrollbar ===== */
+/* ===== Sidebar: wider, scrolls with the page, no inner scrollbar =====
+   Change ONLY --ms-sidebar to move the divider. The content takes the rest
+   automatically, so the two always add up to 100%. Good range: 22%-32%. */
+:root{--ms-sidebar:30%}
 @media screen and (min-width:1024px){
   .sidebar{
     position:relative;height:auto;overflow:visible;
-    width:30%;padding-top:0;padding-right:1.5rem;margin-right:0;
+    width:var(--ms-sidebar);padding-top:0;padding-right:1.5rem;margin-right:0;
     border-right:1px solid var(--ms-line);
   }
-  .page{width:76%;padding-left:4%;padding-right:2%}
+  .page{width:calc(100% - var(--ms-sidebar));padding-left:4%;padding-right:2%}
   .sidebar .author__name{font-size:1.45rem}
   .author__avatar img{max-width:200px}
 }
