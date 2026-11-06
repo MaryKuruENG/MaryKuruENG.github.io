@@ -69,3 +69,38 @@ h1,h2,h3,.author__name,.archive__item-title{font-family:'Playfair Display',Georg
   .page__title{animation:none}
   html{scroll-behavior:auto}
 }
+/* ===== Proposed refinements (append to the end of assets/css/custom-style.css) ===== */
+
+/* 1. Bigger, sharper profile photo: a true circle, face centred */
+.author__avatar img{
+  width:100%;max-width:240px;aspect-ratio:1/1;object-fit:cover;object-position:50% 22%;
+  border:3px solid var(--ms-gold);padding:4px;
+}
+.sidebar .author__name{font-family:'Playfair Display',Georgia,serif;font-size:1.6rem;line-height:1.2;margin-top:.9rem}
+.author__bio{font-size:.92rem;line-height:1.5;opacity:.85}
+.author__urls.social-icons li{font-size:.9rem;margin-bottom:.35rem}
+
+/* Mobile: larger centred avatar instead of a tiny 36px dot */
+@media (max-width:1023px){
+  .sidebar .author__avatar{display:block;width:auto;text-align:center}
+  .sidebar .author__avatar img{max-width:120px;margin:0 auto}
+  .sidebar .author__content{display:block;text-align:center;padding:0}
+  .masthead__menu-item--lg a{white-space:nowrap}
+}
+
+/* 2. Page title: solid teal (the moving teal+gold gradient turned olive-green and hurt readability) */
+.page__title{background:none;-webkit-text-fill-color:currentColor;color:var(--ms-accent);animation:none;font-size:2.2rem}
+
+/* 3. Gold text darker so it can be read (old gold on white was about 2.4:1 contrast) */
+.ms-kicker{color:#8a6d1f}
+html[data-theme="dark"] .ms-kicker{color:var(--ms-gold)}
+
+/* 4. Bigger headline */
+.ms-lead{font-size:1.65rem}
+
+/* 5. Stat labels: tighter so they don't break into 3 lines */
+.ms-stat span{display:block;letter-spacing:.04em;line-height:1.35;font-size:.7rem}
+
+/* 6. Work cards in a clean 2x2 grid (no orphan card) */
+.ms-grid--wide{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:600px){.ms-grid--wide{grid-template-columns:1fr}} 
