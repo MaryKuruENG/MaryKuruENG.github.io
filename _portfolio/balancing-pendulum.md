@@ -8,7 +8,7 @@ date: 2026-10-16
 **Course project, Dynamics · Ashesi University × ETH Zürich · October 2026**
 **Tools:** MATLAB, Simulink, Simscape Multibody, SolidWorks, Control System Toolbox
 
-[**Code on GitHub**](https://github.com/MaryKuruENG/inverted-pendulum-pid-simscape) · [**Report (PDF)**](/files/MaryKuruSam_Inverted_Pendulum_Report.pdf)
+[**Code on GitHub**](https://github.com/MaryKuruENG/MaryKuruENG.github.io/tree/master/inverted-pendulum-pid-simscape) · [**Report (PDF)**](/files/MaryKuruSam_Inverted_Pendulum_Report.pdf)
 
 <img src="/images/pendulum/fig1_cad_assembly.jpg" alt="SolidWorks assembly of the cart and pendulum" width="320">
 
