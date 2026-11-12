@@ -50,5 +50,5 @@ All statistics are referenced on the *References & credits* slide.
 - **Not covered by the licence:** third-party material. Photos © Komatsu and © Sandvik, the
   linked videos © their owners, and the Komatsu, FrontRunner, Sandvik, AutoMine and
   Caterpillar trademarks belong to their owners.
-- **Disclosure:** the speaker works for Sandvik as a Graduate Trainee. The views here are her
+- **Disclosure:** the speaker worked for Sandvik as a Graduate Trainee. The views here are her
   own and do not represent Sandvik.
