@@ -38,3 +38,17 @@ Delivered live to 35 participants.
 - Adoption so far and what's next
 
 ## Cite this talk
+> Sam, M. K. (2026). *Designing Autonomous Systems That Eliminate Human Risk in Hazardous
+> Environments* [Invited talk]. IEEE Communications Society, UET Taxila Webinar, 1 September 2026.
+
+## Sources, credits and licence
+
+All statistics are referenced on the *References & credits* slide.
+
+- **Licence:** © 2026 Mary Kuru Sam. Slide text, layout and charts are licensed under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may reuse them with credit.
+- **Not covered by the licence:** third-party material. Photos © Komatsu and © Sandvik, the
+  linked videos © their owners, and the Komatsu, FrontRunner, Sandvik, AutoMine and
+  Caterpillar trademarks belong to their owners.
+- **Disclosure:** the speaker works for Sandvik as a Graduate Trainee. The views here are her
+  own and do not represent Sandvik.
