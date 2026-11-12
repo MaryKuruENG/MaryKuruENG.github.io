@@ -1,6 +1,6 @@
 ---
 title: "Overhead Transmission Line Insulator Failure Detection"
-excerpt: "Trained a VGGNet-16 deep learning model to classify insulator conditions with 98% training accuracy.<br/><img src='/images/500x300.png'>"
+excerpt: "Trained a VGGNet-16 deep learning model to classify insulator conditions with 98% training accuracy.<br/>"
 collection: portfolio
 ---
 ### Thesis Overview
